@@ -35,3 +35,11 @@ a {
     text-decoration:none;
     vertical-align:bottom;
 }
+
+.secondTableRow {
+    background-color:#999;
+    border-color:#ddd;
+    border-style:solid;
+    letter-spacing:1px;
+    line-height:25px;
+}
