@@ -43,3 +43,38 @@ a {
     letter-spacing:1px;
     line-height:25px;
 }
+
+.weekTableRow {
+    background-color:#eaeaea;
+    height:75px;
+    margin:0;
+    text-align:left;
+    vertical-align:top;
+}
+
+.firstTableData {
+    background-color:#ddd;
+}
+
+ul {
+    font-size:75%;
+    list-style:none;
+    padding-left:20px;
+    padding-right:5px;
+}
+
+.walkDogs {
+    border-radius:5px;
+    color:#10171C;
+    padding:5px;
+    margin:5px 0;
+    background-color:#A6F4FF;
+}
+
+.meetMom {
+    border-radius:5px;
+    color:#10171C;
+    padding:5px;
+    margin:5px 0;
+    background-color:#BA9CE8;
+}
