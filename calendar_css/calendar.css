@@ -9,104 +9,104 @@ table {
 
 .dogPic {
     background-image: url(http://i66.tinypic.com/dy85ev.jpg);
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:300px;
-    text-align:right;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: right;
 }
 
 h1 {
-    color:#FFF;
-    font-size:200%;
-    font-weight:700;
-    letter-spacing:3px;
-    padding-right:50px;
-    padding-bottom:150px;
-    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000;
-    vertical-align:top;
+    color: #FFF;
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000;
+    vertical-align: top;
 }
 
 a {
-    color:#FFF;
-    font-size:50%;
-    padding-right:50px;
-    text-align:right;
-    text-decoration:none;
-    vertical-align:bottom;
+    color: #FFF;
+    font-size: 50%;
+    padding-right: 50px;
+    text-align: right;
+    text-decoration: none;
+    vertical-align: bottom;
 }
 
 .secondTableRow {
-    background-color:#999;
-    border-color:#ddd;
-    border-style:solid;
-    letter-spacing:1px;
-    line-height:25px;
+    background-color: #999;
+    border-color: #ddd;
+    border-style: solid;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .weekTableRow {
-    background-color:#eaeaea;
-    height:75px;
-    margin:0;
-    text-align:left;
-    vertical-align:top;
+    background-color: #eaeaea;
+    height: 75px;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
 }
 
 .firstTableData {
-    background-color:#ddd;
+    background-color: #ddd;
 }
 
 ul {
-    font-size:75%;
-    list-style:none;
-    padding-left:20px;
-    padding-right:5px;
+    font-size: 75%;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 5px;
 }
 
 .walkDogs {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#A6F4FF;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #A6F4FF;
 }
 
 .meetMom {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#BA9CE8;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #BA9CE8;
 }
 
 .yearlyPhysical {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#FF7E6D;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #FF7E6D;
 }
 
 .jensParty {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#AFFFAD;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #AFFFAD;
 }
 
 .dermatologistAppt {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#FF7E6D;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #FF7E6D;
 }
 
 .nationalDogDay {
-    border-radius:5px;
-    color:#10171C;
-    padding:5px;
-    margin:5px 0;
-    background-color:#E8E193;
+    border-radius: 5px;
+    color: #10171C;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #E8E193;
 }
