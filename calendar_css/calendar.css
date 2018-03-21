@@ -63,6 +63,13 @@ ul {
     padding-right:5px;
 }
 
+.event {
+    margin: 5px 0;
+    color: #10171C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .dog-walk {
     border-radius:5px;
     color:#10171C;
