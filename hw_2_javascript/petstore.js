@@ -37,47 +37,41 @@ function calculateFoodOrder(numAnimals, avgFood) {
  */
 function mostPopularDays(week) {
     // IMPLEMENT THIS FUNCTION!
-
+    // Check if the array provided is null or empty and return null
     var i;
     var temp = 0;
 
-    // Check if the array provided is null or empty and return null
     if (week == null || week.length == 0) {
         return null;
     }
     else {
-        // Assigning the largest number in the array to variable temp
         for (i = 0; i < week.length; i++) {
-            if (temp < week[i]) {
-                temp = week[i];
-            };
-        };
+            if (temp < week[i].traffic) {
+                temp = week[i].traffic;
+            }
+        }
+
         // array that will contain the indexes where highest number is found
         var arr = [];
-        
+
         // stepping through the week array to find where the highest number occurs 
         // and pushing the indexes to array arr
         for (i = 0; i < week.length; i++) {
-            if (temp == week[i]) {
-                arr.push(i);
+            if (temp == week[i].traffic) {
+                arr.push(week[i].name);
             }
         }
-        // array containing days of the week
-        var weekDay = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-        
-        // array that will contain the days with highest attendance
         var topDays = [];
 
-        // if array arr is greater than 2, step through arr and assign as index to 
-        // weekDay and then push the corresponding day to array topDays and return topDays
         if (arr.length >= 2) {
-            for (i = 0; i < arr.length; i++) {
-                topDays.push(weekDay[arr[i]]);
-            }
-        return topDays;
+            return arr;
+        }
+        else {
+            return arr[0];
         }
     }
 }
+
 
 
 /**
@@ -91,8 +85,36 @@ function mostPopularDays(week) {
  * @return an array of Animal objects containing the animals' information, or an
  *         empty array if the array's lengths are unequal or zero, or if any array is null.
  */
+
+
+var names = ['Jeff', 'Ross', 'Paulie'];
+var types = ['Dog', 'Cat', 'Bird'];
+var breeds = ['Yorkie', 'Tabbie', 'Finch'];
+
 function createAnimalObjects(names, types, breeds) {
     // IMPLEMENT THIS FUNCTION!
+
+    //var anInfo = [ names, types, breeds ];
+    var zoo = ['first', 'second', 'third'];
+    var finalArr = [];
+    //var animal = new Animal (names[0]);
+    //return animal.name;
+
+    //for (i = 0; i < anInfo.length; i++){
+    //    zoo[i] = new Animal (names[i].name, types[i].type, breeds[i].breed);
+    //    finalArr.push(zoo[i]);
+    //}
+    var i = 0;
+    var zoo;
+    for (i = 0; i < names.length; i++) {
+        for (i = 0; i < types.length; i++) {
+            for (i = 0; i < breeds.length; i++) {
+                zoo[i] = new Animal (names[i], types[i], breeds[i]);
+                finalArr.push(zoo[i]);
+            }
+        }
+    }
+    return finalArr;
 }
 
 /////////////////////////////////////////////////////////////////
